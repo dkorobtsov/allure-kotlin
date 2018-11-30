@@ -45,7 +45,6 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     testImplementation("junit", "junit", "4.12")
-    annotationProcessor("io.qameta.allure:allure-java-commons:$allureVersion")
     implementation("io.qameta.allure:allure-java-commons:$allureVersion")
     implementation("io.qameta.allure:allure-attachments:$allureVersion")
 }
